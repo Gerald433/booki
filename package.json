@@ -1,0 +1,11 @@
+{
+  "name": "transformez-maquette-site-web-gaillard",
+  "version": "1.0.0",
+  "description": "npm init",
+  "main": "Gaillard_Gerald_1_code_html_101022.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
