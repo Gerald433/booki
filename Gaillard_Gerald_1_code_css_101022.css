@@ -1,0 +1,1077 @@
+@import 'Gaillard_Gerald_1_code_reset_css_101022.css';
+
+/*DESKTOP*/
+
+@font-face {
+    font-family: 'raleway';
+    src: url(./font/Raleway-VariableFont_wght.ttf) format('truetype');
+
+}
+
+@font-face {
+    font-family: 'raleway_bold';
+    src: url(./font/Raleway-Bold.ttf) format('truetype');
+
+}
+
+
+body {
+   
+
+
+    font-family: 'raleway', sans-serif;
+    /* border: solid 1px black; */
+    padding-right: 50px;
+    padding-left: 50px;
+
+
+}
+
+.site {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+
+
+
+
+
+/* header --------------------------------------------------------------------*/
+
+
+
+header {
+    display: flex;
+    margin: 0px 0px 2.5px 0px;
+
+}
+
+.nav {
+    margin-left: auto;
+    height: 67px;
+    display: flex;
+    /* margin-right: 27px; */
+
+}
+
+
+.head_list {
+    /* border: solid pink 2px;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.link1,
+.link2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 67px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link1 {
+    width: 162px;
+}
+
+.link2 {
+    width: 112px;
+}
+
+
+.link1:hover,
+.link2:hover {
+    border-top: #0065FC solid 2px;
+    color: #0065FC;
+}
+
+.booki_logo {
+    width: 61.09px;
+    height: 19px;
+    margin-left: 3px;
+    margin-top: 44px;
+    /* border: solid blue 2px; */
+}
+
+/* header */
+
+/* Section presentation */
+
+
+h1 {
+    letter-spacing: -0.1px;
+    font-size: 22px;
+    margin-top: 60px;
+    font-family: 'raleway_bold', sans-serif;
+    padding-left: 1px;
+
+}
+
+
+
+
+.teaser_text {
+
+    height: 19px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 11.3px;
+    margin-left: 4.2px;
+}
+
+/* Search bar--------------------------------------------------------------- */
+
+
+
+.search_bar {
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.search {
+    width: 422px;
+    height: 49px;
+    display: flex;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+
+}
+
+.location {
+    min-width: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    color: #000000;
+    font-size: 17px;
+    margin: 0 0 0 -2px;
+    
+}
+
+
+
+
+.formtext {
+    font-size: 18px;
+    width: 100%;
+    border: 0px;
+    font-family: 'raleway_bold', sans-serif;
+    flex-grow: 1;
+    padding-left: 18px;
+
+}
+
+.submit {
+    width: 132px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    background-color: #0065FC;
+    font-family: 'raleway_bold', sans-serif;
+    color: white;
+    font-size: 18px;
+    margin: -2px 0 -2px 0;
+   
+}
+
+.glass{
+    display: none;
+}
+
+/* Filters-------------------------------------------------------------- */
+
+
+
+.filter {
+    display: flex;
+    margin-left: 12px;
+    margin-top: 32px;
+
+}
+
+.filter_menu {
+    display: flex;
+    flex-grow: 2;
+    padding: 0 0 0 18px;
+    flex-wrap: wrap;
+
+}
+
+h2,
+.filter_menu {
+
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'raleway_bold', sans-serif;
+    gap: 20px;
+
+}
+
+h2 {
+    padding: 15px 0 0 0;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.filter_option {
+    display: flex;
+    border: #D9D9D9 solid 2px;
+    border-radius: 25px;
+    padding: 14px 22px 16px 12px;
+    font-family: 'raleway_bold', sans-serif;
+    ;
+    align-items: center;
+    line-height: 22px;
+    white-space: nowrap;
+   
+
+
+}
+
+li {
+    display: block;
+}
+
+.filter_menu :hover {
+    background-color: #deebff;
+
+}
+
+
+
+.b {
+
+    font-size: 22px;
+    color: #0065FC;
+    margin: 0 14px 0 2px;
+
+}
+
+.a {
+    font-size: large;
+    color: #0065FC;
+    margin: 0 9px 0 0px;
+
+}
+
+.d {
+    font-size: large;
+    color: #0065FC;
+    margin: 0 14px 0 0px;
+
+}
+
+
+.c {
+    font-size: 22px;
+    color: #0065FC;
+    margin: 0 8px 0 0;
+
+}
+
+.infobull {
+    display: flex;
+    align-items: baseline;
+    margin-top: 35px;
+}
+
+/* logo i avec un cercle */
+.info {
+    border: #D9D9D9 solid 2px;
+    border-radius: 40px;
+    width: 20px;
+    padding: 5px 17px 5px 11px;
+    margin: 0 0 0 7px;
+    color: #0065FC;
+
+}
+
+.text_info {
+    padding: 0 0 0 12px;
+}
+
+/* -----------------------Main------------------------------------------------------ */
+
+
+
+.main {
+    max-width: 880px;
+    width: 65%;
+
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 41px 35px 45px 39px;
+
+
+}
+
+.main_present,
+.most_popular {
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+
+
+.img_main {
+    height: 120px;
+    padding: 5px 5px 0 5px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+
+}
+
+
+.card_table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+
+
+.venue {
+    font-size: 16px;
+    font-family: 'raleway_bold', sans-serif;
+}
+
+.venue,
+.price {
+    padding: 0 0 0 11px;
+}
+
+.star,
+.starblack {
+    font-size: 12px;
+    letter-spacing: -3px;
+}
+
+.star {
+    color: #0065FC;
+}
+
+.starblack {
+    color: #F2F2F2;
+}
+
+.number1,
+.number2,
+.number3,
+.number4,
+.number5,
+.number6 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.card_up1,
+.card_up2,
+.card_up3,
+.card_down1,
+.card_down2,
+.card_down3 {
+    width: 30%;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 11px 0;
+}
+
+.venue,
+.price,
+.notice {
+    padding: 8px 10px 0px 10px;
+}
+
+.price,
+.pricepop {
+    font-size: 14px;
+    flex-grow: 1;
+}
+
+.pricepop {
+    padding: 5px 0 0 0;
+    white-space: break-spaces;
+}
+
+
+
+
+
+.end_main {
+    padding: 40px 0 0 0;
+    font-size: 18px;
+    font-family: 'raleway_bold', sans-serif;
+}
+
+.notepop {
+    margin: 0 0 11px 0;
+}
+
+
+.middle_page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop_title_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 59px 10px 0;
+}
+
+.pop_icon {
+    color: #0065FC;
+    font-size: 20px;
+
+}
+
+
+
+.popular {
+    max-width: 420px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-top: 42px;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 0px 0px 29px;
+}
+
+
+
+
+.img_group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 80%;
+
+}
+
+
+
+.most_pop_up {
+    width: 90%;
+    display: flex;
+    height: 144px;
+    background-color: white;
+    border-radius: 20px;
+    padding-right: 9px;
+
+}
+
+.img_popular {
+
+    width: 39%;
+    height: 144px;
+    padding: 4px 0 4px 4px;
+    border-radius: 20px 0px 0 20px;
+    object-fit: cover;
+}
+
+/* lieu de la photo */
+.venuepop {
+    font-size: 16px;
+    font-family: 'raleway_bold', sans-serif;
+    white-space: break-spaces;
+
+}
+
+.pop{
+
+    padding: 16px 0 0 19px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* main */
+/* Section présentation */
+
+.activity_title {
+    padding: 60px 0 0 0;
+    font-size: 22px;
+    font-family: 'raleway_bold', sans-serif;
+    margin: 0 0 0 -4px;
+    text-align: left;
+}
+
+
+.activity {
+    padding: 0px 0 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+    /* border: black solid 2px; */
+    margin: 22px 0px 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    box-shadow: #D9D9D9 2px 2px 12px 1px;
+    width: 23%;
+
+
+}
+
+
+.photo_activity {
+    width: 100%;
+    height: 445px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    margin: 0 0 0 0px;
+
+
+
+}
+
+.description {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    font-family: 'raleway_bold', sans-serif;
+    padding: 24px 0 0 16px;
+    margin: -55px 0 0 0px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    padding: 5% 5% 5% 5%;
+    overflow: hidden;
+    white-space: break-spaces;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.activity_marseille {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+
+
+
+
+}
+
+/* FOOTER */
+
+.footer {
+
+    height: 215px;
+    background-color: #F2F2F2;
+    /* border: solid black 2px; */
+    display: flex;
+
+    align-items: center;
+    margin: 60px 0 0 0;
+
+    gap: 20%;
+    padding: 45px 0 0 70px;
+}
+
+
+
+h3 {
+    font-size: 18px;
+    font-family: 'raleway_bold', sans-serif;
+    
+
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    /* border: blue solid 2.0px; */
+    height: 150px;
+    justify-content: space-between;
+
+
+
+}
+
+.foot_list {
+    line-height: 2;
+    height: 130px;
+    padding: 0 0 0 0px;
+}
+
+.li_foot{
+    font-size: 16px;
+}
+
+
+
+.about_box {
+    display: flex;
+    width: 100%;
+    /* border: yellowgreen; */
+
+
+}
+
+
+
+
+/* TABLETTE */
+
+@media screen and (max-width: 991px) {
+
+
+
+    .middle_page {
+        display: block;
+    }
+
+    .card_table {
+        gap: 20px;
+    }
+
+    .main {
+
+        width: 100%;
+
+        display: flex;
+
+        padding: 41px 35px 57px 39px;
+
+
+
+    }
+
+
+
+    /* Les plus populaires */
+
+
+    .popular {
+        max-width: 991px;
+        width: 100%;
+        height: 300px;
+        padding: 0 39px 0 39px;
+
+
+    }
+
+
+    .img_group {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+
+
+
+ 
+
+
+    .pop_title_icon {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px 10px 0;
+    }
+
+
+
+    .venuepop {
+        font-size: 14px;
+
+    }
+
+    .pricepop {
+        font-size: 13px;
+    }
+
+
+
+
+
+    /* Activités à Marseille */
+
+
+    .photo_activity {
+        width: 100%;
+        height: 267px;
+    }
+
+
+    .description {
+        width: 100%;
+
+    }
+
+    .activity {
+        width: 21%;
+    }
+
+
+    /* footer */
+
+    .footer {
+        width: 100%;
+        height: 350px;
+        margin: 60px 0 0 0px;
+    }
+
+  
+
+
+}
+
+
+/* adaptation */
+@media screen and (max-width: 955px){
+    .filter_menu {
+        display: flex;
+        
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 7px;
+        }
+
+    .filter_option {
+        display: flex;
+        padding: 14px 5px 16px 5px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        
+        }
+
+
+
+
+}
+
+
+
+
+
+/* MOBILE */
+
+@media screen and (max-width: 767px) {
+
+   
+
+
+
+    .glass {
+            
+            width: 50px;
+            min-width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0065FC;
+            border-radius: 0px 0 0 0px;
+            font-size: 17px;
+            margin: 0 0 0 0px;
+            color: white;
+            border: none;
+    }
+
+    .submit {
+            display: none;
+    }
+    
+    
+    body{
+        padding: 0 0 0 0;
+    }
+
+
+    .presentation, .article{
+        padding: 0 20px 0 20px;
+    }
+    
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .head_list {
+        width: 100%;
+    }
+
+
+    .link1:hover,
+    .link2:hover {
+        border-top: none;
+        border-bottom: #0065FC solid 2px;
+        color: #0065FC;
+    }
+
+    .nav_items{
+        width: 50%;
+    }
+
+    .link1,
+    .link2 {
+        padding: 0 0 18px 0;
+        width: unset;
+       
+    }
+
+
+
+    .booki_logo {
+        width: 61.09px;
+        height: 19px;
+        margin: 21px 0 0 0;
+        /* border: solid blue 2px; */
+    }
+
+
+
+
+
+
+    .search {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
+        margin-top: 20px;
+        overflow: hidden;
+
+    }
+
+    h1 {
+        letter-spacing: -0.1px;
+        font-size: 22px;
+        margin-top: 34px;
+        font-family: 'raleway_bold', sans-serif;
+        padding-left: 1px;
+
+    }
+
+    .submit {
+        width: 49px;
+
+        border-radius: 0 15px 15px 0;
+        border: none;
+        background-color: #0065FC;
+        font-family: 'raleway_bold', sans-serif;
+        color: white;
+        font-size: 18px;
+        margin: -2px 0 -2px 0;
+    }
+
+    .filter {
+        display: block; 
+
+        justify-content: space-around;
+        margin-left: 12px;
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .filter_menu {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0px;
+         
+    }
+
+    .filter_option {
+        width: 45%;
+        height: 50px;
+        font-size: 11px;
+        white-space: normal;
+    }
+
+    .filter_option:hover {
+        box-shadow: 2px 2px 3px #D9D9D9 ;
+        background-color: #deebff;
+    }
+
+
+
+ 
+
+    .middle_page {
+        width: 100%;
+
+        gap: 20px;
+        justify-content: start;
+
+    }
+    
+
+
+
+    .main {
+
+        padding: 41px 20px 57px 20px;
+        background-color: white;
+        justify-content: center;
+    }
+
+
+    .img_main {
+        height: 124px;
+    }
+
+    .card_table {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: column;
+
+
+    }
+
+  
+
+
+    .most_pop_up {
+        width: 100%;
+
+    }
+
+    .filter_title {
+        padding: 0 0 10px 0;
+    }
+
+
+
+
+    .popular {
+        height: 600px;
+        justify-content: flex-start;
+        align-items: center;
+        display: block;
+        border-radius: 0px;
+        padding: 0px 20px 0 20px;
+
+
+    }
+
+    .img_group {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .middle_page {
+
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0px 0 0px 0;
+        background-color: white;
+    }
+
+
+
+    /*Activités à Marseille */
+
+    .activity_marseille {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .photo_activity {
+        width: 100%;
+        height: 190px;
+    }
+
+
+
+
+
+
+    .description {
+        width: 100%;
+
+    }
+
+    .activity {
+        width: 100%;
+    }
+
+    .number1,
+    .number2,
+    .number3,
+    .number4,
+    .number5,
+    .number6 {
+        width: 100%;
+    }
+
+    .description {
+      
+    }
+
+
+
+    .footer {
+        display: block;
+        height: 501px;
+        padding: 45px 0px 0px 20px;
+
+    }
+
+
+    .about_box {
+        display: block;
+
+        }
+
+
+
+
+
+
+
+}
